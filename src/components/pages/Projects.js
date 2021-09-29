@@ -40,7 +40,7 @@ export default function Projects() {
       headers: { "Content-Type": "application/" },
     })
       .then((resp) => resp.json())
-      .then((data) => {
+      .then(() => {
         setProjects(projects.filter((project) => project.id !== id));
         setProjectMessage("Projeto removido com sucesso!");
       })

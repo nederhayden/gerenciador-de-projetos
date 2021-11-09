@@ -36,6 +36,17 @@
         }
       ],
       "id": 2
+    },
+    {
+      "name": "update react",
+      "budget": "30000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 3
     }
   ],
   "categories": [
